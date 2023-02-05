@@ -8,12 +8,6 @@
 
 import SwiftUI
 
-struct CustomItem: Identifiable {
-    let id = int
-    var messageCustom: Text
-    var lastName: String
-}
-
 struct AlertItem: Identifiable {
     let id = UUID()
     var title: Text
