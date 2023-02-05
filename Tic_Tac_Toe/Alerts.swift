@@ -1,12 +1,17 @@
 //
 //  Alerts.swift
 //  Tic_Tac_Toe
-// myjfjygj,ut,cuitt
 //
 //  Created by Надежда Левицкая on 1/16/23.
 //
+// comments from VaSIA
 
 import SwiftUI
+
+struct CustomItem: Identifiable {
+    let id = int
+    var messageCustom: Text
+}
 
 struct AlertItem: Identifiable {
     let id = UUID()
